@@ -86,14 +86,6 @@ Lower values of **k** result in higher compression but noticeable quality degrad
 
 ---
 
-## 📂 Project Structure
-
-├── image.png  
-├── svd_compression.py  
-├── README.md  
-
----
-
 ## ▶️ How to Run
 
 1. Clone the repository:
@@ -102,7 +94,7 @@ Lower values of **k** result in higher compression but noticeable quality degrad
 2. Install dependencies:
    pip install numpy opencv-python matplotlib
 
-3. Place your image as `image.png`
+3. Repace `image.png`  in code with you image path
 
 4. Run the script:
    python svd_compression.py
