@@ -97,7 +97,7 @@ Lower values of **k** result in higher compression but noticeable quality degrad
 3. Repace `image.png`  in code with you image path
 
 4. Run the script:
-   python svd_compression.py
+   python image_compression.py
 
 ---
 
