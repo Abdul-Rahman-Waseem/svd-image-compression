@@ -28,7 +28,7 @@ def compressed_size(m, n, k):
     return 3 * k * (m + n + 1)
 
 # Load and resize image
-image = cv2.imread('image.png')
+image = cv2.imread('image.png') # Change with parth to desired image
 image_resized = cv2.resize(image, (400, 400))
 m, n, _ = image_resized.shape
 
